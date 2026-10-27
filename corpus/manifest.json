@@ -19,8 +19,8 @@
     "n_pages": 13,
     "n_chars": 68995,
     "text_path": "text/L01-01.txt",
-    "n_chunks": 52,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 38,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L01-02",
@@ -42,8 +42,8 @@
     "n_pages": 38,
     "n_chars": 122555,
     "text_path": "text/L01-02.txt",
-    "n_chunks": 46,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 42,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L01-03",
@@ -65,8 +65,8 @@
     "n_pages": 47,
     "n_chars": 155484,
     "text_path": "text/L01-03.txt",
-    "n_chunks": 51,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 47,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L01-04",
@@ -88,8 +88,8 @@
     "n_pages": 25,
     "n_chars": 91852,
     "text_path": "text/L01-04.txt",
-    "n_chunks": 60,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 55,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L02-01",
@@ -111,8 +111,8 @@
     "n_pages": 5,
     "n_chars": 25900,
     "text_path": "text/L02-01.txt",
-    "n_chunks": 18,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 16,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L02-02",
@@ -134,8 +134,8 @@
     "n_pages": 6,
     "n_chars": 21569,
     "text_path": "text/L02-02.txt",
-    "n_chunks": 15,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 13,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L02-03",
@@ -157,8 +157,8 @@
     "n_pages": 29,
     "n_chars": 86643,
     "text_path": "text/L02-03.txt",
-    "n_chunks": 60,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 53,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L02-04",
@@ -180,8 +180,8 @@
     "n_pages": 10,
     "n_chars": 32775,
     "text_path": "text/L02-04.txt",
-    "n_chunks": 26,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 21,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L02-05",
@@ -203,8 +203,8 @@
     "n_pages": 13,
     "n_chars": 54668,
     "text_path": "text/L02-05.txt",
-    "n_chunks": 43,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 31,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-01",
@@ -226,8 +226,8 @@
     "n_pages": 12,
     "n_chars": 45307,
     "text_path": "text/L03-01.txt",
-    "n_chunks": 28,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 26,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-02",
@@ -249,8 +249,8 @@
     "n_pages": 12,
     "n_chars": 46816,
     "text_path": "text/L03-02.txt",
-    "n_chunks": 30,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-03",
@@ -272,8 +272,8 @@
     "n_pages": 14,
     "n_chars": 44676,
     "text_path": "text/L03-03.txt",
-    "n_chunks": 26,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 23,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-05",
@@ -295,8 +295,8 @@
     "n_pages": 11,
     "n_chars": 42685,
     "text_path": "text/L03-05.txt",
-    "n_chunks": 26,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 25,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-07",
@@ -318,8 +318,8 @@
     "n_pages": 12,
     "n_chars": 49448,
     "text_path": "text/L03-07.txt",
-    "n_chunks": 31,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 27,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L03-09",
@@ -341,8 +341,8 @@
     "n_pages": 11,
     "n_chars": 48681,
     "text_path": "text/L03-09.txt",
-    "n_chunks": 34,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 33,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L04-01",
@@ -365,7 +365,7 @@
     "n_chars": 38774,
     "text_path": "text/L04-01.txt",
     "n_chunks": 26,
-    "tokenizer": "cl100k_base"
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L04-02",
@@ -387,8 +387,8 @@
     "n_pages": 9,
     "n_chars": 30213,
     "text_path": "text/L04-02.txt",
-    "n_chunks": 20,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 19,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L04-03",
@@ -410,8 +410,8 @@
     "n_pages": 11,
     "n_chars": 43925,
     "text_path": "text/L04-03.txt",
-    "n_chunks": 28,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 24,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L04-04",
@@ -433,8 +433,8 @@
     "n_pages": 13,
     "n_chars": 55960,
     "text_path": "text/L04-04.txt",
-    "n_chunks": 34,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 31,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L04-05",
@@ -456,8 +456,8 @@
     "n_pages": 15,
     "n_chars": 55202,
     "text_path": "text/L04-05.txt",
-    "n_chunks": 29,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 25,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L05-01",
@@ -479,8 +479,8 @@
     "n_pages": 15,
     "n_chars": 46275,
     "text_path": "text/L05-01.txt",
-    "n_chunks": 35,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 29,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L05-02",
@@ -502,8 +502,8 @@
     "n_pages": 47,
     "n_chars": 125581,
     "text_path": "text/L05-02.txt",
-    "n_chunks": 89,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 79,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L05-03",
@@ -525,8 +525,8 @@
     "n_pages": 12,
     "n_chars": 50911,
     "text_path": "text/L05-03.txt",
-    "n_chunks": 30,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 26,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L05-04",
@@ -548,8 +548,8 @@
     "n_pages": 9,
     "n_chars": 23950,
     "text_path": "text/L05-04.txt",
-    "n_chunks": 17,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 16,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L06-01",
@@ -571,8 +571,8 @@
     "n_pages": 15,
     "n_chars": 54457,
     "text_path": "text/L06-01.txt",
-    "n_chunks": 33,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 27,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L06-02",
@@ -594,8 +594,8 @@
     "n_pages": 10,
     "n_chars": 42746,
     "text_path": "text/L06-02.txt",
-    "n_chunks": 37,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 25,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L06-03",
@@ -617,8 +617,8 @@
     "n_pages": 13,
     "n_chars": 51875,
     "text_path": "text/L06-03.txt",
-    "n_chunks": 30,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 26,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L06-04",
@@ -640,8 +640,8 @@
     "n_pages": 10,
     "n_chars": 37571,
     "text_path": "text/L06-04.txt",
-    "n_chunks": 27,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 23,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L07-01",
@@ -663,8 +663,8 @@
     "n_pages": 9,
     "n_chars": 34001,
     "text_path": "text/L07-01.txt",
-    "n_chunks": 23,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 22,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L07-02",
@@ -686,8 +686,8 @@
     "n_pages": 15,
     "n_chars": 50630,
     "text_path": "text/L07-02.txt",
-    "n_chunks": 40,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 35,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L07-03",
@@ -709,8 +709,8 @@
     "n_pages": 11,
     "n_chars": 40521,
     "text_path": "text/L07-03.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L07-04",
@@ -732,8 +732,8 @@
     "n_pages": 8,
     "n_chars": 28505,
     "text_path": "text/L07-04.txt",
-    "n_chunks": 20,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 19,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L07-06",
@@ -755,8 +755,8 @@
     "n_pages": 11,
     "n_chars": 41516,
     "text_path": "text/L07-06.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-01",
@@ -778,8 +778,8 @@
     "n_pages": 15,
     "n_chars": 39903,
     "text_path": "text/L08-01.txt",
-    "n_chunks": 24,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 22,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-02",
@@ -801,8 +801,8 @@
     "n_pages": 11,
     "n_chars": 46170,
     "text_path": "text/L08-02.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 25,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-03",
@@ -824,8 +824,8 @@
     "n_pages": 6,
     "n_chars": 24774,
     "text_path": "text/L08-03.txt",
-    "n_chunks": 19,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 16,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-04",
@@ -847,8 +847,8 @@
     "n_pages": 14,
     "n_chars": 45677,
     "text_path": "text/L08-04.txt",
-    "n_chunks": 33,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 27,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-05",
@@ -870,8 +870,8 @@
     "n_pages": 34,
     "n_chars": 110561,
     "text_path": "text/L08-05.txt",
-    "n_chunks": 106,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 68,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-06",
@@ -893,8 +893,8 @@
     "n_pages": 16,
     "n_chars": 51446,
     "text_path": "text/L08-06.txt",
-    "n_chunks": 38,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 34,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L08-07",
@@ -916,8 +916,8 @@
     "n_pages": 13,
     "n_chars": 47645,
     "text_path": "text/L08-07.txt",
-    "n_chunks": 37,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 31,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-01",
@@ -939,8 +939,8 @@
     "n_pages": 16,
     "n_chars": 64023,
     "text_path": "text/L09-01.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-02",
@@ -962,8 +962,8 @@
     "n_pages": 75,
     "n_chars": 238299,
     "text_path": "text/L09-02.txt",
-    "n_chunks": 176,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 139,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-03",
@@ -985,8 +985,8 @@
     "n_pages": 30,
     "n_chars": 90211,
     "text_path": "text/L09-03.txt",
-    "n_chunks": 66,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 61,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-04",
@@ -1008,8 +1008,8 @@
     "n_pages": 36,
     "n_chars": 97957,
     "text_path": "text/L09-04.txt",
-    "n_chunks": 79,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 55,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-07",
@@ -1031,8 +1031,8 @@
     "n_pages": 92,
     "n_chars": 358697,
     "text_path": "text/L09-07.txt",
-    "n_chunks": 212,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 176,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L09-08",
@@ -1054,8 +1054,8 @@
     "n_pages": 30,
     "n_chars": 95279,
     "text_path": "text/L09-08.txt",
-    "n_chunks": 33,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-01",
@@ -1077,8 +1077,8 @@
     "n_pages": 68,
     "n_chars": 183275,
     "text_path": "text/L10-01.txt",
-    "n_chunks": 58,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 53,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-03",
@@ -1100,8 +1100,8 @@
     "n_pages": 45,
     "n_chars": 133268,
     "text_path": "text/L10-03.txt",
-    "n_chunks": 94,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 80,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-04",
@@ -1123,8 +1123,8 @@
     "n_pages": 27,
     "n_chars": 93919,
     "text_path": "text/L10-04.txt",
-    "n_chunks": 31,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-05",
@@ -1146,8 +1146,8 @@
     "n_pages": 34,
     "n_chars": 119228,
     "text_path": "text/L10-05.txt",
-    "n_chunks": 43,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 41,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-06",
@@ -1169,8 +1169,8 @@
     "n_pages": 15,
     "n_chars": 64782,
     "text_path": "text/L10-06.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 30,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-07",
@@ -1192,8 +1192,8 @@
     "n_pages": 35,
     "n_chars": 115726,
     "text_path": "text/L10-07.txt",
-    "n_chunks": 82,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 68,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L10-10",
@@ -1215,8 +1215,8 @@
     "n_pages": 82,
     "n_chars": 253223,
     "text_path": "text/L10-10.txt",
-    "n_chunks": 179,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 138,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L11-01",
@@ -1238,8 +1238,8 @@
     "n_pages": 26,
     "n_chars": 83724,
     "text_path": "text/L11-01.txt",
-    "n_chunks": 85,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 57,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L11-02",
@@ -1261,8 +1261,8 @@
     "n_pages": 26,
     "n_chars": 88212,
     "text_path": "text/L11-02.txt",
-    "n_chunks": 48,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 39,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L11-03",
@@ -1284,8 +1284,8 @@
     "n_pages": 16,
     "n_chars": 82345,
     "text_path": "text/L11-03.txt",
-    "n_chunks": 59,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 48,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L11-06",
@@ -1307,8 +1307,8 @@
     "n_pages": 27,
     "n_chars": 87499,
     "text_path": "text/L11-06.txt",
-    "n_chunks": 72,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 56,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-01",
@@ -1330,8 +1330,8 @@
     "n_pages": 29,
     "n_chars": 87919,
     "text_path": "text/L12-01.txt",
-    "n_chunks": 35,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 32,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-03",
@@ -1353,8 +1353,8 @@
     "n_pages": 27,
     "n_chars": 62087,
     "text_path": "text/L12-03.txt",
-    "n_chunks": 29,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 26,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-04",
@@ -1376,8 +1376,8 @@
     "n_pages": 15,
     "n_chars": 46931,
     "text_path": "text/L12-04.txt",
-    "n_chunks": 42,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 31,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-05",
@@ -1400,7 +1400,7 @@
     "n_chars": 46272,
     "text_path": "text/L12-05.txt",
     "n_chunks": 14,
-    "tokenizer": "cl100k_base"
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-06",
@@ -1422,8 +1422,8 @@
     "n_pages": 11,
     "n_chars": 43522,
     "text_path": "text/L12-06.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 27,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L12-08",
@@ -1445,8 +1445,8 @@
     "n_pages": 50,
     "n_chars": 129963,
     "text_path": "text/L12-08.txt",
-    "n_chunks": 25,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 23,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-01",
@@ -1468,8 +1468,8 @@
     "n_pages": 19,
     "n_chars": 69449,
     "text_path": "text/L13-01.txt",
-    "n_chunks": 32,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-02",
@@ -1491,8 +1491,8 @@
     "n_pages": 18,
     "n_chars": 65270,
     "text_path": "text/L13-02.txt",
-    "n_chunks": 35,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-03",
@@ -1514,8 +1514,8 @@
     "n_pages": 24,
     "n_chars": 95729,
     "text_path": "text/L13-03.txt",
-    "n_chunks": 57,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 46,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-04",
@@ -1537,8 +1537,8 @@
     "n_pages": 10,
     "n_chars": 61631,
     "text_path": "text/L13-04.txt",
-    "n_chunks": 47,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 40,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-06",
@@ -1560,8 +1560,8 @@
     "n_pages": 30,
     "n_chars": 106715,
     "text_path": "text/L13-06.txt",
-    "n_chunks": 84,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 68,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-07",
@@ -1583,8 +1583,8 @@
     "n_pages": 11,
     "n_chars": 41138,
     "text_path": "text/L13-07.txt",
-    "n_chunks": 24,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 20,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-08",
@@ -1607,7 +1607,7 @@
     "n_chars": 31778,
     "text_path": "text/L13-08.txt",
     "n_chunks": 17,
-    "tokenizer": "cl100k_base"
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-09",
@@ -1629,8 +1629,8 @@
     "n_pages": 26,
     "n_chars": 89747,
     "text_path": "text/L13-09.txt",
-    "n_chunks": 37,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 35,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-12",
@@ -1652,8 +1652,8 @@
     "n_pages": 4,
     "n_chars": 22015,
     "text_path": "text/L13-12.txt",
-    "n_chunks": 18,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 14,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L13-13",
@@ -1675,8 +1675,8 @@
     "n_pages": 15,
     "n_chars": 54026,
     "text_path": "text/L13-13.txt",
-    "n_chunks": 28,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 25,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-01",
@@ -1698,8 +1698,8 @@
     "n_pages": 13,
     "n_chars": 56226,
     "text_path": "text/L14-01.txt",
-    "n_chunks": 37,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 31,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-02",
@@ -1721,8 +1721,8 @@
     "n_pages": 22,
     "n_chars": 130211,
     "text_path": "text/L14-02.txt",
-    "n_chunks": 93,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 82,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-03",
@@ -1744,8 +1744,8 @@
     "n_pages": 28,
     "n_chars": 105443,
     "text_path": "text/L14-03.txt",
-    "n_chunks": 92,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 66,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-04",
@@ -1767,8 +1767,8 @@
     "n_pages": 23,
     "n_chars": 97549,
     "text_path": "text/L14-04.txt",
-    "n_chunks": 35,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 29,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-05",
@@ -1790,8 +1790,8 @@
     "n_pages": 17,
     "n_chars": 72417,
     "text_path": "text/L14-05.txt",
-    "n_chunks": 67,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 47,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-06",
@@ -1813,8 +1813,8 @@
     "n_pages": 23,
     "n_chars": 69965,
     "text_path": "text/L14-06.txt",
-    "n_chunks": 41,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 35,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L14-08",
@@ -1836,8 +1836,8 @@
     "n_pages": 15,
     "n_chars": 45550,
     "text_path": "text/L14-08.txt",
-    "n_chunks": 30,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 27,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L15-01",
@@ -1859,8 +1859,8 @@
     "n_pages": 21,
     "n_chars": 51544,
     "text_path": "text/L15-01.txt",
-    "n_chunks": 41,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 36,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L15-02",
@@ -1882,8 +1882,8 @@
     "n_pages": 35,
     "n_chars": 111238,
     "text_path": "text/L15-02.txt",
-    "n_chunks": 83,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 65,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L15-03",
@@ -1905,8 +1905,8 @@
     "n_pages": 24,
     "n_chars": 83512,
     "text_path": "text/L15-03.txt",
-    "n_chunks": 50,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 47,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L15-04",
@@ -1928,8 +1928,8 @@
     "n_pages": 19,
     "n_chars": 108951,
     "text_path": "text/L15-04.txt",
-    "n_chunks": 100,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 73,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-01",
@@ -1951,8 +1951,8 @@
     "n_pages": 43,
     "n_chars": 136526,
     "text_path": "text/L16-01.txt",
-    "n_chunks": 29,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-02",
@@ -1974,8 +1974,8 @@
     "n_pages": 24,
     "n_chars": 91412,
     "text_path": "text/L16-02.txt",
-    "n_chunks": 75,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 59,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-03",
@@ -1998,7 +1998,7 @@
     "n_chars": 53192,
     "text_path": "text/L16-03.txt",
     "n_chunks": 24,
-    "tokenizer": "cl100k_base"
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-04",
@@ -2020,8 +2020,8 @@
     "n_pages": 37,
     "n_chars": 92686,
     "text_path": "text/L16-04.txt",
-    "n_chunks": 58,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 55,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-05",
@@ -2043,8 +2043,8 @@
     "n_pages": 86,
     "n_chars": 233259,
     "text_path": "text/L16-05.txt",
-    "n_chunks": 180,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 123,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-06",
@@ -2066,8 +2066,8 @@
     "n_pages": 46,
     "n_chars": 142911,
     "text_path": "text/L16-06.txt",
-    "n_chunks": 171,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 101,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-07",
@@ -2089,8 +2089,8 @@
     "n_pages": 14,
     "n_chars": 55933,
     "text_path": "text/L16-07.txt",
-    "n_chunks": 58,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L16-08",
@@ -2112,8 +2112,8 @@
     "n_pages": 18,
     "n_chars": 62366,
     "text_path": "text/L16-08.txt",
-    "n_chunks": 33,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 28,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-01",
@@ -2135,8 +2135,8 @@
     "n_pages": 33,
     "n_chars": 110821,
     "text_path": "text/L17-01.txt",
-    "n_chunks": 108,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 66,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-02",
@@ -2158,8 +2158,8 @@
     "n_pages": 17,
     "n_chars": 72091,
     "text_path": "text/L17-02.txt",
-    "n_chunks": 40,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 36,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-03",
@@ -2181,8 +2181,8 @@
     "n_pages": 22,
     "n_chars": 78275,
     "text_path": "text/L17-03.txt",
-    "n_chunks": 63,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 46,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-04",
@@ -2204,8 +2204,8 @@
     "n_pages": 52,
     "n_chars": 152894,
     "text_path": "text/L17-04.txt",
-    "n_chunks": 126,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 93,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-05",
@@ -2227,8 +2227,8 @@
     "n_pages": 26,
     "n_chars": 77882,
     "text_path": "text/L17-05.txt",
-    "n_chunks": 25,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 23,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-07",
@@ -2250,8 +2250,8 @@
     "n_pages": 51,
     "n_chars": 156647,
     "text_path": "text/L17-07.txt",
-    "n_chunks": 54,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 46,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-08",
@@ -2273,8 +2273,8 @@
     "n_pages": 17,
     "n_chars": 65355,
     "text_path": "text/L17-08.txt",
-    "n_chunks": 33,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 29,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-10",
@@ -2296,8 +2296,8 @@
     "n_pages": 26,
     "n_chars": 90504,
     "text_path": "text/L17-10.txt",
-    "n_chunks": 49,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 43,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L17-13",
@@ -2319,8 +2319,8 @@
     "n_pages": 33,
     "n_chars": 115963,
     "text_path": "text/L17-13.txt",
-    "n_chunks": 69,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 61,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L18-01",
@@ -2342,8 +2342,8 @@
     "n_pages": 19,
     "n_chars": 56529,
     "text_path": "text/L18-01.txt",
-    "n_chunks": 47,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 36,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L19-01",
@@ -2365,8 +2365,8 @@
     "n_pages": 28,
     "n_chars": 112605,
     "text_path": "text/L19-01.txt",
-    "n_chunks": 50,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 43,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L20-01",
@@ -2388,8 +2388,8 @@
     "n_pages": 12,
     "n_chars": 65625,
     "text_path": "text/L20-01.txt",
-    "n_chunks": 60,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 38,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L21-01",
@@ -2411,8 +2411,8 @@
     "n_pages": 67,
     "n_chars": 195695,
     "text_path": "text/L21-01.txt",
-    "n_chunks": 102,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 83,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L22-03",
@@ -2434,8 +2434,8 @@
     "n_pages": 33,
     "n_chars": 116683,
     "text_path": "text/L22-03.txt",
-    "n_chunks": 84,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 72,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L23-02",
@@ -2457,8 +2457,8 @@
     "n_pages": 25,
     "n_chars": 90992,
     "text_path": "text/L23-02.txt",
-    "n_chunks": 65,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 47,
+    "tokenizer": "whitespace*1.3"
   },
   {
     "paper_id": "L24-01",
@@ -2480,7 +2480,7 @@
     "n_pages": 61,
     "n_chars": 134937,
     "text_path": "text/L24-01.txt",
-    "n_chunks": 85,
-    "tokenizer": "cl100k_base"
+    "n_chunks": 80,
+    "tokenizer": "whitespace*1.3"
   }
 ]
