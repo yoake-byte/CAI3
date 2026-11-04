@@ -535,7 +535,7 @@ class TABot:
         })
         return self._llm(messages)
 
-    def _llm(self, messages: list[dict], max_tokens: int = 1024) -> str:
+    def _llm(self, messages: list[dict], max_tokens: int = 4096) -> str:
         try:
             response = requests.post(
                 f"{self.base}/chat/completions",
