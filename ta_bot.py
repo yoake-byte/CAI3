@@ -324,6 +324,12 @@ class UserMemory:
 
     _RECALL_INTENT = re.compile(
         r"\b(remember|recall|what do you know about me|tell me about myself)\b", re.I)
+    _MEMORY_UPDATE_INTENT = re.compile(
+        r"\b(I(?:'m| am| have| work| study| enjoy| like| prefer| want| no longer| stopped|"
+        r" finished| completed| switched| moved)|my (?:name|project|research|interest)|"
+        r"please forget|forget that I)\b",
+        re.I,
+    )
     _SENSITIVE = re.compile(
         r"\b(password|passcode|api key|secret token|social security number|ssn|"
         r"credit card number|bank account|home address|medical diagnosis|medication|"
@@ -342,6 +348,8 @@ class UserMemory:
     # ====================================================Remove outdated facts, add new facts to memory
 
     def update(self, user_id: str, message: str) -> None:
+        if not self._MEMORY_UPDATE_INTENT.search(message):
+            return
         existing = self._facts.get(user_id, [])
         result = self._extract(message, existing)
         if result is None:
