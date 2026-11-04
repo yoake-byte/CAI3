@@ -535,7 +535,7 @@ class TABot:
         })
         return self._llm(messages)
 
-    def _llm(self, messages: list[dict], max_tokens: int = 400) -> str:
+    def _llm(self, messages: list[dict], max_tokens: int = 1024) -> str:
         try:
             response = requests.post(
                 f"{self.base}/chat/completions",
@@ -549,9 +549,25 @@ class TABot:
                 },
             )
             response.raise_for_status()
-            return response.json()["choices"][0]["message"]["content"].strip()
+            payload = response.json()
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
             raise TimeoutError(str(exc)) from exc
+
+        try:
+            choice = payload["choices"][0]
+            message = choice["message"]
+        except (IndexError, KeyError, TypeError) as exc:
+            raise RuntimeError("Chat completion response has no choices[0].message") from exc
+
+        content = message.get("content") if isinstance(message, dict) else None
+        if not isinstance(content, str) or not content.strip():
+            finish_reason = choice.get("finish_reason")
+            message_fields = sorted(message) if isinstance(message, dict) else []
+            raise RuntimeError(
+                "Chat completion returned no text content "
+                f"(finish_reason={finish_reason!r}, message_fields={message_fields})"
+            )
+        return content.strip()
 
     def reset_memory(self, user_id: str) -> None:
         """Clear memory for a specific user."""
