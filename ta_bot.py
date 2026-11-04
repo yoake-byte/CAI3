@@ -394,8 +394,12 @@ class UserMemory:
     def _extract(self, message: str, existing: list[str]) -> dict | None:
         prompt = (
             "Extract only durable facts the user directly asserts about themself, such as their "
-            "name, ongoing project, or stated interests. Do not infer facts from questions or "
-            "course content. Do not store hypothetical, temporary, sensitive, third-party, "
+            "name, ongoing project, or stated interests. For projects, preserve the distinctive "
+            "subject and any optional details the user gives, such as whether it is a semester "
+            "project or a long-term goal, or its timeframe or end date. Do not require these "
+            "details in order to remember a project, and do not treat a project as temporary only "
+            "because it is tied to a semester or has an end date. Do not infer facts from questions "
+            "or course content. Do not store hypothetical, temporary, sensitive, third-party, "
             "quoted, or negated claims. If the user corrects or retracts a previously stored fact, "
             "put the exact old fact from Existing facts in `forget`; do not keep both versions. "
             "Return only a JSON object with `facts` and `forget` arrays of concise strings. "
@@ -508,7 +512,10 @@ class TABot:
             f"{chunk.get('section') or 'passage'}\n{chunk['text']}"
             for chunk in chunks
         ) or "(no relevant passages found)"
-        facts = "\n".join(self.memory.user.retrieve(user_id, message))
+        recalled_facts = self.memory.user.retrieve(user_id, message)
+        if self.memory.user._RECALL_INTENT.search(message) and recalled_facts:
+            return "I remember: " + "; ".join(recalled_facts)
+        facts = "\n".join(recalled_facts)
         conversation = "\n".join(f"{role.title()}: {text}" for role, text in history)
         system = (
             "You are a teaching assistant for a graduate course on conversational AI. "
