@@ -417,15 +417,20 @@ class UserMemory:
                         {"role": "system", "content": "You are a conservative user-fact extractor."},
                         {"role": "user", "content": prompt},
                     ],
+                    "response_format": {"type": "json_object"},
                     "temperature": 0,
                     "seed": self.config.get("seed", 42),
                 },
-                timeout=self.config.get("timeout", 15),
+                timeout=self.config.get("timeout", 60),
             )
             response.raise_for_status()
             content = response.json()["choices"][0]["message"]["content"]
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
             raise TimeoutError("Memory extraction endpoint timed out or is unreachable") from exc
+
+        if not isinstance(content, str):
+            logger.warning("Memory extraction returned no text content; no facts stored.")
+            return None
 
         try:
             start = content.find("{")
