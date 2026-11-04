@@ -394,10 +394,14 @@ class UserMemory:
     def _extract(self, message: str, existing: list[str]) -> dict | None:
         prompt = (
             "Extract only durable facts the user directly asserts about themself, such as their "
-            "name, ongoing project, or stated interests. Do not infer facts from questions or "
-            "course content. Do not store hypothetical, temporary, sensitive, third-party, "
-            "quoted, or negated claims. If the user corrects or retracts a previously stored fact, "
-            "put the exact old fact from Existing facts in `forget`; do not keep both versions. "
+            "name, ongoing project, or stated interests. Treat a project the user says they are "
+            "currently working on, including a semester or course project, as durable while it is "
+            "in progress; do not reject it only because it has an end date. Preserve distinctive "
+            "topic phrases exactly as the user wrote them, especially project subjects. Do not "
+            "infer facts from questions or course content. Do not store hypothetical, fleeting, "
+            "sensitive, third-party, quoted, or negated claims. If the user corrects or retracts "
+            "a previously stored fact, put the exact old fact from Existing facts in `forget`; "
+            "do not keep both versions. "
             "Return only a JSON object with `facts` and `forget` arrays of concise strings. "
             "Use empty arrays when appropriate.\n\n"
             f"Existing facts: {json.dumps(existing)}\n"
