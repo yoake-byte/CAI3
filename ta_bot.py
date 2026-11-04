@@ -517,7 +517,9 @@ class TABot:
             return "I remember: " + "; ".join(recalled_facts)
         facts = "\n".join(recalled_facts)
         conversation = "\n".join(f"{role.title()}: {text}" for role, text in history)
+        reasoning = "Reasoning: low\n" if "gpt-oss" in self.model.lower() else ""
         system = (
+            f"{reasoning}"
             "You are a teaching assistant for a graduate course on conversational AI. "
             "Answer ONLY from the provided passages. Cite papers inline by their id in brackets, "
             "e.g. [L04-04]. If the passages do not contain the answer, say so briefly. "
